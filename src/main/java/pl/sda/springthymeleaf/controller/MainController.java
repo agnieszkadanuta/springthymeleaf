@@ -67,6 +67,7 @@ public class MainController {
             Person newPerson = new Person(firstName, lastName);
             persons.add(newPerson);
 
+            //to jest redirect na metodę powyżej, a nie na stronę
             return "redirect:/personList";
         }
 
